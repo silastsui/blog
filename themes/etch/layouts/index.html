@@ -1,4 +1,6 @@
 {{ define "main" }}
 {{ .Content }}
-{{- partial "posts.html" . -}}
+{{ if not .IsHome }}
+    {{- partial "posts.html" . -}}
+{{ end }}
 {{ end }}
