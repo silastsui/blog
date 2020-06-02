@@ -1,7 +1,6 @@
 ---
 title: "Home"
 date: 2020-05-27T02:24:29-07:00
-draft: true
 ---
 
 Hello!
