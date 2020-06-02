@@ -1,0 +1,12 @@
+baseURL = "http://silastsui.github.io"
+languageCode = "en-us"
+title = "Silas Tsui"
+theme = "etch"
+
+[params]
+  author = "Silas Tsui"
+  description = "Silas Tsui's personal website"
+  mainSections = "posts"
+
+[permalinks]
+  reading = "/:year/:month/:day/:title/"
